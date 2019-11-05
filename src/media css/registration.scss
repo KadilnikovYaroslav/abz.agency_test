@@ -1,0 +1,236 @@
+@media (min-width: 2545px) {
+
+    .main__registration {
+        margin-bottom: 147px;
+    }
+
+
+    // Registration form START
+
+        .registration-form__bottom {
+            margin-bottom: 43px;
+        }
+
+        .registration-form__wrapper-input {
+            width: 49%;
+        }
+
+        // Select list START
+
+            .registration-form__select-wrapper {
+                width: 49%;
+            }
+
+        // Select list END
+
+
+        // Input file START
+
+            .input-file__upload-name {
+                width: 100%;
+            }
+
+        // Input file END
+
+    // Registration form END
+
+}
+
+
+@media (max-width: 870px) {
+
+// Registration header START
+
+    .registration__warning-text {
+        max-width: 365px;
+        margin: 0 auto;
+    }
+
+// Registration header END
+
+}
+
+
+@media (max-width: 783px) {
+
+    .main__registration {
+        margin-bottom: 120px;
+    }
+
+    
+    // Registration header START
+
+        .registration__header {
+            margin-bottom: 50px;
+        }
+
+        .registration__title {
+            margin-bottom: 19px;
+        }
+
+    // Registration header END
+
+
+    // Registration form START
+
+
+        .registration-form__bottom {
+            justify-content: space-between;
+        }
+
+
+        // Select list START
+
+            .registration-form__select-wrapper {
+                width: 48%;
+                margin-right: 0;
+            }
+
+            .registration-form__selected-position {
+                padding: 17px 12px 17px 17px;
+            }
+
+        // Select list END
+
+
+        // Input file START
+
+            .registration-form__wrapper-input_size {
+                width: 48%;
+            }
+
+        // Input file END
+
+    // Registration form END
+
+}
+
+
+@media (max-width: 620px) {
+
+    // Registration form START
+
+        // Input file START
+
+            .input-file__upload-name {
+                // font-size: 12px;
+            }
+
+        // Input file END
+
+    // Registration form END
+    
+}
+
+
+@media (max-width: 520px) {
+
+    .registration__title {
+        font-size: 38px;
+    }
+    
+}
+
+
+@media (max-width: 490px) {
+
+// Registration form START
+
+    .registration-form__top,
+    .registration-form__bottom {
+        flex-direction: column;
+    }
+
+    .registration-form__wrapper-input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 35px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+
+
+    // Select list START
+
+        .registration-form__select-wrapper {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 39px;
+        }
+
+    // Select list END
+
+
+
+    // Input file START
+
+        .input-file__upload-name {
+            font-size: 16px;
+        }
+
+    // Input file END
+
+// Registration form END
+    
+}
+
+
+@media (max-width: 320px) {
+
+    .main__registration {
+        margin-bottom: 69px;
+    }
+
+    .registration__title {
+        font-size: 26px;
+        margin-bottom: 9px;
+    }
+
+    // Registration header START
+
+        .registration__header {
+            margin-bottom: 31px;
+        }
+
+        .registration__warning-text {
+            line-height: 22px;
+        }
+
+    // Registration header END
+
+    // Registration form START
+
+        .registration-form__top {
+            margin-bottom: 33px;
+        }
+
+        .registration-form__bottom {
+            margin-bottom: 29px;
+        }
+
+        // Select list START
+
+            .registration-form__select-wrapper {
+                margin-bottom: 36px;
+            }
+    
+        // Select list END
+
+
+        // Input file START
+
+            .input-file__label {
+                min-width: 56px;
+                height: 55px;
+                font-size: 0;
+                background: url("~@/assets/icons/upload.svg") center no-repeat;
+            }
+
+        // Input file END
+    
+    // Registration form END  
+    
+}

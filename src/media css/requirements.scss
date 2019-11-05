@@ -1,0 +1,217 @@
+@media (min-width: 2545px) {
+
+    .requirements {
+        background: url("~@/assets/imgs/third-block-bg/third-block-bg-2560x692.jpg") center no-repeat;
+        // width: 2560px;
+        // height: 692px;
+
+        padding-bottom: 105px;
+    }
+
+    @media /* only for retina displays */
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    
+        .requirements {
+            background: url("~@/assets/imgs/third-block-bg/third-block-bg-2560x692@2.jpg") center no-repeat;
+            // width: 2560px;
+            // height: 692px;
+        }
+
+    }
+
+    .requirements__content {
+        width: 1078px;
+    }
+
+
+    // Requirements left START
+
+        .requirements-left {
+            width: 551px;
+        }
+
+    // Requirements left END
+
+
+    // Requirements right START
+
+        .requirements-right {
+            padding-top: 0;
+        }
+
+    // Requirements right END
+
+}
+
+
+@media (min-width: 783px) and (max-width: 2545px) {
+
+
+    @media /* only for retina displays */
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    
+        .requirements {
+            background: url("~@/assets/imgs/third-block-bg/third-block-bg-1024x755@2.jpg") center no-repeat;
+            // width: 1024px;
+            // height: 755px;
+        }
+
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 783px) {
+
+    .requirements {
+        display: block;
+        padding-top: 114px;
+        padding-bottom: 120px;
+        margin-bottom: 113px;
+
+        background: url("~@/assets/imgs/third-block-bg/third-block-bg-768x878.jpg") center no-repeat;
+        // width: 768px;
+        // height: 878px;
+    }
+
+    @media /* only for retina displays */
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    
+        .requirements {
+            background: url("~@/assets/imgs/third-block-bg/third-block-bg-768x878@2.jpg") center no-repeat;
+            // width: 768px;
+            // height: 878px
+        }
+
+    }
+
+
+    .requirements__title {
+        width: 472px;
+        line-height: 51px;
+        margin: auto;
+        margin-bottom: 36px;
+    }
+
+
+    // Requirements left START
+
+        .requirements-left {
+            width: 346px;
+        }
+
+    // Requirements left END
+
+
+    // Requirements right START
+
+        .requirements-right {
+            padding-top: 5px;
+        }
+
+    // Requirements right END    
+        
+}
+    
+    
+@media (max-width: 670px) {
+
+    .requirements {
+        text-align: center;
+        padding-top: 49px;
+        padding-bottom: 47px;
+    }
+
+    .requirements__content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+// Requirements left START
+
+    .requirements-left {
+        width: 100%;
+    }
+
+    .requirements-left__text {
+        color: #fff;
+        line-height: 22px;
+    }
+
+// Requirements left END
+
+
+// Requirements right START
+
+    .requirements-right {
+        padding-top: 0;
+        min-width: 256px;
+        width: 65%;
+        margin-bottom: 23px;
+    }
+
+// Requirements right END
+    
+}
+
+
+@media (max-width: 520px) {
+
+    .requirements__title {
+        width: 85%;
+        font-size: 38px;
+    }
+    
+}
+
+
+@media (max-width: 320px) {
+
+    .requirements {
+        margin-bottom: 85px;
+
+        background: url("~@/assets/imgs/third-block-bg/third-block-bg-320x1031.jpg") center no-repeat;
+        // width: 320px;
+        // height: 1031px;
+    }
+
+    @media /* only for retina displays */
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    
+        .requirements {
+            background: url("~@/assets/imgs/third-block-bg/third-block-bg-320x1031@2.jpg") center no-repeat;
+            // width: 320px;
+            // height: 1031px
+        }
+
+    }
+
+
+
+    .requirements__title {
+        font-size: 25px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    
+}

@@ -1,0 +1,132 @@
+@media (min-width: 2545px) {
+
+    .main__relationships {
+        margin-bottom: 141px;
+    }
+
+    // Relationships list START
+
+        .relationships__item {
+            width: 362px;
+            margin-right: 30px;
+        }
+
+    // Relationships list END
+
+}
+
+
+@media (max-width: 783px) {
+
+    .main__relationships {
+        margin-bottom: 122px;
+    }
+
+    .relationships__title {
+        line-height: 51px;
+        margin-bottom: 45px;
+    }
+
+// Relationships list START
+
+    .relationships__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .relationships__item {
+        display: flex;
+        width: 82%;
+        margin-right: 0;
+        margin-bottom: 50px;
+
+        &:last-child {
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    .relationships__top {
+        min-width: 88px;
+        margin-bottom: 0;
+        margin-right: 37px;
+    }
+
+    .relationships-bottom__title {
+        line-height: 26px;
+        margin-bottom: 7px;
+    }
+
+// Relationships list END
+    
+}
+
+
+@media (max-width: 670px) {
+
+// Relationships list START
+
+    .relationships__item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .relationships__top {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .relationships-bottom {
+        width: 100%;
+        text-align: center;
+    }
+
+// Relationships list END
+    
+}
+
+
+@media (max-width: 520px) {
+
+    .relationships__title {
+        font-size: 38px;
+    }
+    
+}
+
+
+@media (max-width: 320px) {
+
+    .main__relationships {
+        margin-bottom: 92px;
+    }
+
+    .relationships__title {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+
+    // Relationships list START
+
+        .relationships__top {
+            min-width: 88px;
+            width: 88px;
+        }
+
+        .relationships__item {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .relationships-bottom__title {
+            font-size: 22px;
+            line-height: 18px;
+            margin-bottom: 5px;
+        }
+
+    // Relationships list END
+    
+}
+

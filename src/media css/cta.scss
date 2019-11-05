@@ -1,0 +1,212 @@
+@media (min-width: 2545px) {
+
+    // Main cta START
+
+        .main__cta {
+            background: url("~@/assets/imgs/banner-bg/banner-bg-2560x676.jpg") center no-repeat;
+            // width: 2560px;
+            // height: 676px;
+        }
+
+        @media /* only for retina displays */
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+        
+            .main__cta {
+                background: url("~@/assets/imgs/banner-bg/banner-bg-2560x676@2.jpg") center no-repeat;
+                // width: 2560px;
+                // height: 676px;
+            }
+
+        }
+    
+    // Main cta END
+
+
+    // Cta START
+
+        .cta {
+            width: 500px;
+            padding-bottom: 139px;
+        }
+
+        .cta__text {
+            margin-bottom: 40px;
+        }
+
+    // Cta END
+
+}
+
+
+@media (min-width: 783px) and (max-width: 2545px) {
+
+    // Main cta START
+
+        @media /* only for retina displays */
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+        
+            .main__cta {
+                background: url("~@/assets/imgs/banner-bg/banner-bg-1024x725@2.jpg") center no-repeat;
+                // width: 1024px;
+                // height: 725px;
+            }
+
+        }
+    
+    // Main cta END
+
+}
+
+
+@media (min-width: 320px) and (max-width: 783px) {
+
+    // Main cta START
+
+        .main__cta {
+            background: url("~@/assets/imgs/banner-bg/banner-bg-768x622.jpg") center no-repeat;
+            // width: 768px;
+            // height: 622px;
+            margin-bottom: 112px;
+        }
+
+        @media /* only for retina displays */
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+        
+            .main__cta {
+                background: url("~@/assets/imgs/banner-bg/banner-bg-768x622@2.jpg") center no-repeat;
+                // width: 768px;
+                // height: 622px
+            }
+
+        }
+
+    // Main cta END
+
+
+    // Cta START
+
+        .cta {
+            width: 410px;
+            padding-top: 111px;
+            padding-bottom: 119px;
+        }
+
+        .cta__title {
+            font-size: 42px;
+            line-height: 51px;
+            margin-bottom: 21px;
+        }
+
+        .cta__text {
+            font-size: 18px;
+            margin-bottom: 33px;
+            line-height: 24px;
+        }
+
+    // Cta END
+
+}
+
+
+@media (max-width: 670px) {
+
+// Cta START
+
+    .cta {
+        width: 100%;
+        text-align: center;
+    }
+
+// Cta END
+
+}
+
+
+@media (max-width: 370px) {
+
+// Cta START
+
+    .cta {
+        padding-top: 75px;
+        padding-bottom: 70px;
+    }
+
+// Cta END
+
+}
+
+
+@media (max-width: 320px) {
+
+    // Main cta START
+
+        .main__cta {
+            background: url("~@/assets/imgs/banner-bg/banner-bg-320x393.jpg") center no-repeat;
+            // width: 320px;
+            // height: 393px;
+            margin-bottom: 66px;
+        }
+
+        @media /* only for retina displays */
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+        
+            .main__cta {
+                background: url("~@/assets/imgs/banner-bg/banner-bg-320x393@2.jpg") center no-repeat;
+                // width: 320px;
+                // height: 393px
+            }
+
+        }
+
+    // Main cta END
+
+
+    // Cta START
+
+        .cta {
+            padding-top: 67px;
+            padding-bottom: 70px;
+        }
+
+        .cta__title {
+            font-size: 30px;
+            line-height: 34px;
+            margin-bottom: 9px
+        }
+
+        .cta__text {
+            font-size: 16px;
+            margin-bottom: 38px;
+            line-height: 22px;
+        }
+
+        .cta__inner-text {
+            display: none;
+        }
+
+// Cta END
+
+
+
+
+}

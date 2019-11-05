@@ -1,0 +1,112 @@
+@media (min-width: 2545px)  {
+
+    // Responsive menu START
+
+        .header__responsive-menu {
+            width: 835px;
+        }
+
+    // Responsive menu END
+
+}
+
+
+@media (max-width: 1040px) {
+
+    .header__button-menu {
+        display: block;
+    }
+
+
+// Responsive menu START
+
+    .header__responsive-menu {
+        display: none;
+    }
+
+    .header__responsive-menu_tablet {
+        width: 260px;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: start;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: #fff;
+    }
+
+// Responsive menu END
+
+    
+// Header user START
+
+    .header__user {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: start;
+        border-bottom: 1px solid #d4d4d4;
+        padding: 30px 0 27px 25px;
+        box-sizing: border-box;
+        margin-bottom: 38px;
+    }
+
+    .header__user-avatar {
+        width: 78px;
+        margin-right: 0;
+        margin-bottom: 13px;
+    }
+
+    .header-user-info {
+        text-align: left;
+        margin-right: 0;
+    }
+
+    .header-user-login {
+        display: none;
+    }
+
+    .header-user-info__nickname {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .header-user-info__email {
+        font-size: 13px;
+    }
+
+// Header user END
+
+
+// Header nav START
+
+    .header__nav {
+        padding-left: 25px;
+    }
+
+    .header-nav-list {
+        flex-direction: column;
+    }
+
+    .header-nav-list__item {
+        margin-right: 0;
+        margin-bottom: 32px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .header-nav-list__item_toggle-display {
+        display: block;
+    }
+
+// Header nav END
+
+}
+
+

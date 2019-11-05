@@ -1,0 +1,214 @@
+@media (min-width: 2545px) {
+
+    // Users list START
+
+        .users__item {
+            width: 360px;
+            margin-bottom: 85px;
+        }
+
+    // Users list END
+
+}
+
+
+@media (max-width: 1040px) {
+
+// Users list START
+
+    .users__item {
+        flex-direction: column;
+        width: 30%;
+        margin-right: 4%;
+    }
+
+
+    // Users left START
+
+        .users__left {
+            margin: 0 auto;
+        }
+
+    // Users left END
+
+
+    // Users right START
+
+        .users__right {
+            text-align: center;
+        }
+
+    // Users right END
+
+// Users list END
+
+}
+
+
+@media (max-width: 783px) {
+
+    .users {
+        margin-bottom: 134px;
+    }
+
+    // Users header START
+
+        .users__header {
+            margin-bottom: 37px;
+        }
+
+        .users__title {
+            margin-bottom: 13px;
+        }
+
+    // Users header END
+
+
+    // Users list START
+
+        .users__list {
+            margin-bottom: 59px;
+        }
+
+        .users__item {
+            margin-right: 5%;
+            margin-bottom: 63px;
+        }
+
+
+        // Users left START
+
+            .users__left {
+                margin-bottom: 11px;
+            }
+
+        // Users left END
+
+
+        // Users right START
+
+            .users__right {
+                padding-top: 0;
+            }
+
+            .users__name {
+                margin-bottom: 3px;
+            }
+
+        // Users right END
+
+    // Users list END
+
+}
+
+
+@media (max-width: 520px) {
+
+    .users__title {
+        font-size: 38px;
+    }
+
+    // Users list START
+
+        .users__item {
+
+            width: 50%;
+            margin-right: 0;
+            padding: 0 4%;
+            box-sizing: border-box;
+
+            &:nth-child(3n+3) {
+                // margin-right: auto;
+            }
+
+            &:nth-last-child(-n+3) {
+                margin-bottom: inherit;
+            }
+
+            &:nth-child(2n+2) {
+                // margin-right: 0;
+            }
+
+            &:nth-last-child(-n+2) {
+                margin-bottom: 0;
+            }
+        }
+
+    // Users list END
+    
+}
+
+
+@media (max-width: 320px) {
+
+    .users {
+        margin-bottom: 68px;
+    }
+
+
+    // Users header START
+
+        .users__header {
+            margin-bottom: 28px;
+        }
+
+        .users__title {
+            font-size: 26px;
+            margin-bottom: 13px;
+        }
+
+    // Users header END
+
+    // Users list START
+
+        .users__list {
+            flex-direction: column;
+            margin-bottom: 0px;
+        }
+
+        .users__item {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 29px;
+
+            &:nth-child(3n+3) {
+                margin-right: 0;
+                margin-bottom: 29px;
+            }
+    
+            &:nth-last-child(-n+3) {
+                margin-bottom: 0;
+                margin-bottom: 29px;
+            }
+        }
+
+
+        // Users left START
+
+            .users__left {
+                margin-bottom: 14px;
+            }
+        
+        // Users left END
+
+
+        // Users right START
+
+            .users__right {
+                white-space: normal;
+            }
+
+            .users__name {
+                margin-bottom: 5px;
+                line-height: 25px;
+            }
+
+            .users__right {
+                padding: 0;
+            }
+
+        // Users right END
+
+    // Users list END
+    
+}
